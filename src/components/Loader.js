@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import { ThreeDots } from "react-loader-spinner";
 
 const Loader = () => {
   return (
-    <div style={{color: "white"}}>Loader</div>
-  )
-}
+    <div className="loader">
+      <ThreeDots color="grey" />
+    </div>
+  );
+};
 
-export default Loader
+export default Loader;
